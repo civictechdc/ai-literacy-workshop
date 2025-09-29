@@ -354,7 +354,11 @@ const SlideContent: React.FC<SlideContentProps> = ({ content }) => {
       {content.points && content.points.length > 0 && (
         <div className="content-section max-w-content mx-auto">
           <ContentBlock
-            items={content.points.map(point => typeof point === 'string' ? point : '')}
+            items={content.points.map(point => {
+              if (typeof point !== 'string') return '';
+              // Strip leading bullets, numbers, dashes, and whitespace
+              return point.replace(/^[\d.•\-–—*+]\s*/, '').trim();
+            })}
             treatment="info"
             marker="bullet"
           />

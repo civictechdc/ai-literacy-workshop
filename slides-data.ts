@@ -90,59 +90,42 @@ export const slidesData: Slide[] = [
     }
   },
 
-  // === WORKSHOP 1: FIRST PROMPT (Slide 6) ===
+  // === DISCUSSION 1: PROMPT SPECIFICITY (Slide 6) ===
   {
     id: 6,
-    type: SlideType.WORKSHOP,
-    title: "Workshop 1: Your First AI Interaction",
-    subtitle: "Let's get hands-on immediately",
-    ai_image_prompt: "Person at computer with glowing AI interface, exploratory and curious mood, teal colors",
-    layout: SlideLayout.WORKSHOP,
-    timer_minutes: 10,
-    requires_completion: true,
+    type: SlideType.CONTENT,
+    title: "Discussion: How Prompt Specificity Changes Output",
+    subtitle: "Understanding the impact of precise language",
+    ai_image_prompt: "Three thought bubbles showing different levels of detail from vague to specific, clarity visualization",
+    layout: SlideLayout.STANDARD,
     content: {
-      goal: "Experience how small prompt changes create different outputs",
-      instructions: [
-        "Open the AI chat assistant (bottom right)",
-        "Try this basic prompt: 'Explain what a transformer model is'",
-        "Now try: 'Explain what a transformer model is in one sentence'",
-        "Finally try: 'Explain transformer models to a 10-year-old'",
-        "Notice how the same question produces wildly different answers"
+      description: "The same question can produce vastly different responses depending on how you ask it. Let's examine three approaches:",
+      points: [
+        "**Vague:** 'Explain what a transformer model is'",
+        "→ Result: Long, technical explanation with jargon",
+        "",
+        "**Constrained:** 'Explain what a transformer model is in one sentence'",
+        "→ Result: Concise, high-level summary",
+        "",
+        "**Audience-Specific:** 'Explain transformer models to a 10-year-old'",
+        "→ Result: Simple analogy, accessible language"
       ],
-      workshop_config: {
-        duration_minutes: 10,
-        difficulty_level: 'beginner',
-        materials_needed: ['AI chat assistant', 'Note-taking capability'],
-        success_criteria: [
-          'Successfully sent at least 3 prompts',
-          'Observed differences in responses',
-          'Noted how specificity changes output'
-        ]
-      },
-      expected_outcomes: [
-        "Understand that AI responses vary with prompt structure",
-        "Experience the importance of specificity",
-        "Get comfortable with the chat interface"
+      key_points: [
+        "Specificity controls length, complexity, and tone",
+        "Always define your audience and format",
+        "Constraints prevent rambling and force prioritization",
+        "The same information can be packaged many different ways"
       ]
     },
     interactive_elements: [
       {
         type: InteractiveElementType.NOTE_TAKING,
-        id: 'ws1-notes',
-        title: 'Your Observations',
+        id: 'disc1-notes',
+        title: 'Discussion Notes',
         config: {
-          placeholder: 'What differences did you notice? What surprised you?'
+          placeholder: 'Try the examples with the AI assistant. What differences do you notice?'
         }
       },
-      {
-        type: InteractiveElementType.TIMER,
-        id: 'ws1-timer',
-        title: 'Workshop Timer',
-        config: {
-          duration_minutes: 10,
-          show_warnings: true
-        }
-      }
     ]
   },
 
@@ -521,7 +504,7 @@ export const slidesData: Slide[] = [
             },
             {
               label: 'With Schema',
-              text: 'Assess the risk of migrating our database to a new platform. Respond using this JSON schema: [paste schema from slide 18]'
+              text: `Assess the risk of migrating our database to a new platform. Respond strictly as JSON matching this schema (no extra text):\n\n{\n  "risk_assessment": {\n    "type": "object",\n    "properties": {\n      "risk_level": {\n        "type": "string",\n        "enum": ["low", "medium", "high", "critical"],\n        "description": "Overall risk rating - pick one, no hedging."\n      },\n      "key_factors": {\n        "type": "array",\n        "maxItems": 3,\n        "description": "Top 3 risk factors only - force prioritization.",\n        "items": { "type": "string" }\n      },\n      "confidence": {\n        "type": "integer",\n        "minimum": 0,\n        "maximum": 100,\n        "description": "How certain are you? A number forces honesty."\n      },\n      "recommendation": {\n        "type": "string",\n        "maxLength": 200,\n        "description": "Single actionable next step - no essays."\n      }\n    },\n    "required": ["risk_level", "key_factors", "confidence"]\n  }\n}`
             }
           ]
         }
@@ -529,75 +512,50 @@ export const slidesData: Slide[] = [
     ]
   },
 
-  // === WORKSHOP 2: SCHEMA PRACTICE (Slide 22) ===
+  // === DISCUSSION 2: SCHEMA PATTERNS (Slide 22) ===
   {
     id: 22,
-    type: SlideType.WORKSHOP,
-    title: "Workshop 2: Build Your Schema",
-    subtitle: "Design structure for your own use case",
-    ai_image_prompt: "Person constructing a blueprint with geometric shapes and structure, building and creating theme",
-    layout: SlideLayout.WORKSHOP,
-    timer_minutes: 15,
-    requires_completion: true,
+    type: SlideType.CONTENT,
+    title: "Discussion: Common Schema Patterns",
+    subtitle: "Real-world examples of structured output",
+    ai_image_prompt: "Blueprint templates showing different schema patterns for common use cases, organized grid layout",
+    layout: SlideLayout.TWO_COLUMN,
     content: {
-      goal: "Create a JSON schema for a problem you actually need to solve",
-      instructions: [
-        "Think of a real question you need AI to answer (work, personal, learning)",
-        "Identify what specific information you need in the response",
-        "Design a JSON schema that forces that structure",
-        "Test it with the AI assistant",
-        "Refine based on results"
+      description: "Schemas work best when matched to specific use cases. Here are proven patterns for common scenarios:",
+      points: [
+        "**Decision Analysis Schema:**",
+        "- Pros (max 3 items)",
+        "- Cons (max 3 items)",
+        "- Recommendation (enum: proceed/defer/reject)",
+        "- Confidence (0-100)",
+        "",
+        "**Meeting Summarization Schema:**",
+        "- Key decisions (required array)",
+        "- Action items with owners (structured objects)",
+        "- Open questions (optional, max 5)",
+        "",
+        "**Learning Plan Schema:**",
+        "- Topics (ordered array)",
+        "- Difficulty level (enum)",
+        "- Time estimate (integer minutes)",
+        "- Prerequisites (array, can be empty)"
       ],
-      workshop_config: {
-        duration_minutes: 15,
-        difficulty_level: 'intermediate',
-        materials_needed: ['AI chat assistant', 'Code editor or note-taking tool'],
-        success_criteria: [
-          'Created a JSON schema with at least 3 required fields',
-          'Tested schema with AI assistant',
-          'Received structured response matching schema',
-          'Refined schema based on initial results'
-        ],
-        fallback_examples: [
-          'Decision analysis (pros, cons, recommendation)',
-          'Meeting summarization (key points, action items, decisions)',
-          'Learning plan (topics, resources, timeline)',
-          'Code review (issues found, severity, suggested fixes)'
-        ]
-      },
-      expected_outcomes: [
-        "Understand how to design effective schemas",
-        "Experience the difference structured output makes",
-        "Have a reusable template for future use"
+      key_points: [
+        "Start with proven patterns, adapt to your needs",
+        "Every constraint serves a purpose (prevent hedging, force prioritization)",
+        "maxItems and enums are your friends",
+        "Test with real queries to validate assumptions"
       ]
     },
     interactive_elements: [
       {
-        type: InteractiveElementType.SCHEMA_VALIDATOR,
-        id: 'ws2-validator',
-        title: 'Schema Builder & Validator',
-        config: {
-          show_examples: true,
-          enable_testing: true
-        }
-      },
-      {
         type: InteractiveElementType.NOTE_TAKING,
-        id: 'ws2-notes',
-        title: 'Your Schema & Results',
+        id: 'disc2-notes',
+        title: 'Discussion Notes',
         config: {
-          placeholder: 'Paste your schema and note what worked/what didn\'t...'
+          placeholder: 'Which patterns match problems you face? What would you adapt?'
         }
       },
-      {
-        type: InteractiveElementType.TIMER,
-        id: 'ws2-timer',
-        title: 'Workshop Timer',
-        config: {
-          duration_minutes: 15,
-          show_warnings: true
-        }
-      }
     ]
   },
 
@@ -1005,15 +963,6 @@ export const slidesData: Slide[] = [
           placeholder: 'Problem:\n\nSuccess Criteria:\n\nPrompt:\n\nSchema:\n\nResults:\n\nNext Steps:'
         }
       },
-      {
-        type: InteractiveElementType.TIMER,
-        id: 'ws3-timer',
-        title: 'Workshop Timer',
-        config: {
-          duration_minutes: 15,
-          show_warnings: true
-        }
-      }
     ]
   },
 

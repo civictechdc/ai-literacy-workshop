@@ -22,40 +22,41 @@ const StandardLayout: React.FC<SlideRendererProps> = ({ slide, isActive: _isActi
     : undefined;
 
   return (
-    <div className="slide-standard h-full flex flex-col">
+    <div className="slide-standard h-full flex flex-col bg-gradient-to-br from-slate-50 to-gray-100">
       {/* Slide Header */}
-      <div>
-        <SlideHeader title={slide.title} subtitle={slide.subtitle} />
-      </div>
+      <SlideHeader title={slide.title} subtitle={slide.subtitle} />
 
       {/* Main Content Area */}
-      <div className="flex-1 flex">
+      <div className="flex-1 flex flex-col lg:flex-row overflow-hidden">
         {/* Content */}
-        <div className="flex-1 px-8 py-4">
-          <SlideContent content={slide.content} />
+        <div className="flex-1 px-6 py-8 lg:px-12 lg:py-10 overflow-y-auto">
+          <div className="max-w-4xl mx-auto">
+            <SlideContent content={slide.content} />
+          </div>
         </div>
 
         {/* Right Sidebar - Only show if there are interactive elements or an image */}
         {(slide.interactive_elements && slide.interactive_elements.length > 0) || slideImage ? (
-          <div className="w-96 backdrop-blur-sm bg-white/90">
+          <div className="w-full lg:w-[28rem] xl:w-[32rem] bg-white border-t lg:border-t-0 lg:border-l border-gray-200 shadow-xl">
             {slide.interactive_elements && slide.interactive_elements.length > 0 ? (
-              <InteractivePanel
-                elements={slide.interactive_elements}
-                slideId={slide.id}
-              />
+              <div className="h-full overflow-y-auto">
+                <InteractivePanel
+                  elements={slide.interactive_elements}
+                  slideId={slide.id}
+                />
+              </div>
             ) : slideImage ? (
-              <div className="p-4 flex flex-col items-center justify-center h-full">
+              <div className="p-8 flex flex-col items-center justify-center h-full">
                 <img
                   src={slideImage}
-                  alt={slide.title || 'Slide image'}
-                  className="max-w-full max-h-[1400px] object-contain rounded-lg shadow-lg"
+                  alt={slide.ai_image_prompt || slide.title || 'Slide image'}
+                  className="max-w-full max-h-[500px] lg:max-h-[600px] object-contain rounded-xl shadow-2xl ring-1 ring-gray-200"
                 />
               </div>
             ) : null}
           </div>
         ) : null}
       </div>
-
     </div>
   );
 };

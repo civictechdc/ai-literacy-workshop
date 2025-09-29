@@ -188,13 +188,6 @@ const generateQuickActions = (_slideId: number, slideType: SlideType): QuickActi
           emoji: '🔍',
           category: 'workshop'
         },
-        {
-          id: 'check-work',
-          text: 'Check my work',
-          prompt: "Can you review what I've done so far and give feedback?",
-          emoji: '✅',
-          category: 'workshop'
-        }
       ];
 
     case SlideType.CONTENT:

@@ -147,6 +147,15 @@ export const usePresentationStore = create<PresentationState>()(
         progress.visited = true;
         slideProgress.set(index, progress);
         set({ slideProgress });
+
+        // Persist navigation immediately so refresh restores the latest slide
+        // (auto-save runs every 30s, but navigation should be durable instantly)
+        try {
+          get().saveProgress();
+        } catch (e) {
+          // Non-fatal: persistence has its own fallbacks
+          console.warn('Save on navigate failed, will retry via auto-save:', e);
+        }
       }
     },
 
@@ -356,7 +365,13 @@ export const usePresentationStore = create<PresentationState>()(
         bookmarks: new Set()
       });
 
-      localStorage.removeItem('presentation-progress');
+      // Clear all persisted data (IndexedDB + localStorage) so reload starts fresh
+      try {
+        persistenceService.clearAllData();
+      } catch (e) {
+        // Best-effort fallback to localStorage clear
+        localStorage.removeItem('presentation-progress');
+      }
     },
 
     // Helper function to update overall progress
