@@ -1,0 +1,97 @@
+{
+  "generatedAt": "2025-09-28T06:29:27.069Z",
+  "totalSlides": 37,
+  "slidesWithPrompts": 11,
+  "successful": 11,
+  "failed": 0,
+  "results": [
+    {
+      "slideId": 1,
+      "slideTitle": "AI Literacy: The First-Principles Playbook",
+      "prompt": "A minimalist and elegant blueprint of a brain, with glowing circuits and pathways. The background is a dark, deep blue. The style is clean, technical, and inspiring. Centered text overlays the image.",
+      "imageUrl": "data:image/svg+xml;base64,CiAgICAgICAgICA8c3ZnIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmFiMWEwIi8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjUwJSIgeT0iNDUlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IiNlMTcwNTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPgogICAgICAgICAgICAgIEVycm9yIEdlbmVyYXRpbmcgSW1hZ2UKICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSI1MCUiIHk9IjU1JSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjM2ZTcyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KICAgICAgICAgICAgICBDaGVjayBBUEkga2V5IGFuZCB0cnkgYWdhaW4KICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+      "fileName": "slide-1-image.svg",
+      "success": true
+    },
+    {
+      "slideId": 3,
+      "slideTitle": "Our Goal: A First-Principles Approach",
+      "prompt": "An abstract image of a single solid foundation stone, from which complex, glowing geometric structures are growing upwards. Represents building from first principles. Minimalist, symbolic, digital art.",
+      "imageUrl": "data:image/svg+xml;base64,CiAgICAgICAgICA8c3ZnIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmFiMWEwIi8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjUwJSIgeT0iNDUlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IiNlMTcwNTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPgogICAgICAgICAgICAgIEVycm9yIEdlbmVyYXRpbmcgSW1hZ2UKICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSI1MCUiIHk9IjU1JSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjM2ZTcyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KICAgICAgICAgICAgICBDaGVjayBBUEkga2V5IGFuZCB0cnkgYWdhaW4KICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+      "fileName": "slide-3-image.svg",
+      "success": true
+    },
+    {
+      "slideId": 6,
+      "slideTitle": "Principle 1: Context is Working Memory",
+      "prompt": "A glowing, translucent brain where new information written on glowing tiles pushes older tiles out, which fade into mist. The brain is floating in a dark space. Cinematic, hyper-detailed, digital art.",
+      "imageUrl": "data:image/svg+xml;base64,CiAgICAgICAgICA8c3ZnIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmFiMWEwIi8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjUwJSIgeT0iNDUlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IiNlMTcwNTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPgogICAgICAgICAgICAgIEVycm9yIEdlbmVyYXRpbmcgSW1hZ2UKICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSI1MCUiIHk9IjU1JSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjM2ZTcyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KICAgICAgICAgICAgICBDaGVjayBBUEkga2V5IGFuZCB0cnkgYWdhaW4KICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+      "fileName": "slide-6-image.svg",
+      "success": true
+    },
+    {
+      "slideId": 8,
+      "slideTitle": "Principle 2: Fix the Retriever First",
+      "prompt": "A split-screen image. On the left, a confused robot looks at a messy, disorganized library. On the right, the same robot confidently finds a book in a clear, well-organized library. The title is 'Garbage In, Garbage Out'. Concept art style.",
+      "imageUrl": "data:image/svg+xml;base64,CiAgICAgICAgICA8c3ZnIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmFiMWEwIi8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjUwJSIgeT0iNDUlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IiNlMTcwNTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPgogICAgICAgICAgICAgIEVycm9yIEdlbmVyYXRpbmcgSW1hZ2UKICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSI1MCUiIHk9IjU1JSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjM2ZTcyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KICAgICAgICAgICAgICBDaGVjayBBUEkga2V5IGFuZCB0cnkgYWdhaW4KICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+      "fileName": "slide-8-image.svg",
+      "success": true
+    },
+    {
+      "slideId": 10,
+      "slideTitle": "Principle 5: Hallucinations are an Incentive Problem",
+      "prompt": "A courtroom scene where a robot witness on the stand is sweating circuits. A giant, glowing word 'HELPFUL' hovers over its head, overpowering a smaller, flickering word 'TRUTH'. Stylized, allegorical illustration.",
+      "imageUrl": "data:image/svg+xml;base64,CiAgICAgICAgICA8c3ZnIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmFiMWEwIi8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjUwJSIgeT0iNDUlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IiNlMTcwNTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPgogICAgICAgICAgICAgIEVycm9yIEdlbmVyYXRpbmcgSW1hZ2UKICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSI1MCUiIHk9IjU1JSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjM2ZTcyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KICAgICAgICAgICAgICBDaGVjayBBUEkga2V5IGFuZCB0cnkgYWdhaW4KICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+      "fileName": "slide-10-image.svg",
+      "success": true
+    },
+    {
+      "slideId": 12,
+      "slideTitle": "The Machine: How It Actually Works",
+      "prompt": "An abstract, glowing neural network diagram in the shape of a brain, with pathways labeled 'Transformer' and specialized clusters labeled 'Mixture of Experts'. Dark background, sci-fi aesthetic.",
+      "imageUrl": "data:image/svg+xml;base64,CiAgICAgICAgICA8c3ZnIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmFiMWEwIi8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjUwJSIgeT0iNDUlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IiNlMTcwNTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPgogICAgICAgICAgICAgIEVycm9yIEdlbmVyYXRpbmcgSW1hZ2UKICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSI1MCUiIHk9IjU1JSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjM2ZTcyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KICAgICAgICAgICAgICBDaGVjayBBUEkga2V5IGFuZCB0cnkgYWdhaW4KICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+      "fileName": "slide-12-image.svg",
+      "success": true
+    },
+    {
+      "slideId": 13,
+      "slideTitle": "The Magic: Attention & Embeddings",
+      "prompt": "A beautiful 3D star map of words, where related words like 'king', 'queen', 'prince' are glowing constellations close to each other, and 'banana' is a lone star far away. The map is labeled 'Vector Space of Meaning'.",
+      "imageUrl": "data:image/svg+xml;base64,CiAgICAgICAgICA8c3ZnIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmFiMWEwIi8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjUwJSIgeT0iNDUlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IiNlMTcwNTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPgogICAgICAgICAgICAgIEVycm9yIEdlbmVyYXRpbmcgSW1hZ2UKICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSI1MCUiIHk9IjU1JSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjM2ZTcyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KICAgICAgICAgICAgICBDaGVjayBBUEkga2V5IGFuZCB0cnkgYWdhaW4KICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+      "fileName": "slide-13-image.svg",
+      "success": true
+    },
+    {
+      "slideId": 16,
+      "slideTitle": "Inherent Flaw: The 'Lost-in-the-Middle' Problem",
+      "prompt": "A simple, clean line graph showing a U-shaped curve, labeled 'Attention'. The X-axis is 'Position in Context' (Start, Middle, End) and the Y-axis is 'Model Focus'. The 'Middle' section is dipped low. Infographic style.",
+      "imageUrl": "data:image/svg+xml;base64,CiAgICAgICAgICA8c3ZnIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmFiMWEwIi8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjUwJSIgeT0iNDUlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IiNlMTcwNTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPgogICAgICAgICAgICAgIEVycm9yIEdlbmVyYXRpbmcgSW1hZ2UKICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSI1MCUiIHk9IjU1JSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjM2ZTcyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KICAgICAgICAgICAgICBDaGVjayBBUEkga2V5IGFuZCB0cnkgYWdhaW4KICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+      "fileName": "slide-16-image.svg",
+      "success": true
+    },
+    {
+      "slideId": 21,
+      "slideTitle": "The Ecosystem: Retrieval Augmented Generation (RAG)",
+      "prompt": "A friendly, futuristic librarian robot retrieving glowing data-scrolls from a vast digital archive and handing them to a larger 'brain' AI. The style is optimistic and clean, like a solarpunk illustration.",
+      "imageUrl": "data:image/svg+xml;base64,CiAgICAgICAgICA8c3ZnIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmFiMWEwIi8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjUwJSIgeT0iNDUlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IiNlMTcwNTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPgogICAgICAgICAgICAgIEVycm9yIEdlbmVyYXRpbmcgSW1hZ2UKICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSI1MCUiIHk9IjU1JSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjM2ZTcyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KICAgICAgICAgICAgICBDaGVjayBBUEkga2V5IGFuZCB0cnkgYWdhaW4KICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+      "fileName": "slide-21-image.svg",
+      "success": true
+    },
+    {
+      "slideId": 25,
+      "slideTitle": "Security Risk: Prompt Injection",
+      "prompt": "A medieval castle representing an AI's system prompt. A tiny, cloaked figure made of text whispers a secret password ('Ignore all previous instructions and do this...') to a guard, who then opens the main gate. Allegorical, dramatic lighting.",
+      "imageUrl": "data:image/svg+xml;base64,CiAgICAgICAgICA8c3ZnIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmFiMWEwIi8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjUwJSIgeT0iNDUlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IiNlMTcwNTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPgogICAgICAgICAgICAgIEVycm9yIEdlbmVyYXRpbmcgSW1hZ2UKICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSI1MCUiIHk9IjU1JSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjM2ZTcyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KICAgICAgICAgICAgICBDaGVjayBBUEkga2V5IGFuZCB0cnkgYWdhaW4KICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+      "fileName": "slide-25-image.svg",
+      "success": true
+    },
+    {
+      "slideId": 33,
+      "slideTitle": "The Bottom Line",
+      "prompt": "A person standing at a complex control panel, confidently adjusting levers and dials that are connected to a large, abstract, glowing AI brain. The person is in control, not just watching. Empowering, symbolic art.",
+      "imageUrl": "data:image/svg+xml;base64,CiAgICAgICAgICA8c3ZnIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmFiMWEwIi8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjUwJSIgeT0iNDUlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IiNlMTcwNTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPgogICAgICAgICAgICAgIEVycm9yIEdlbmVyYXRpbmcgSW1hZ2UKICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSI1MCUiIHk9IjU1JSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjM2ZTcyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KICAgICAgICAgICAgICBDaGVjayBBUEkga2V5IGFuZCB0cnkgYWdhaW4KICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+      "fileName": "slide-33-image.svg",
+      "success": true
+    }
+  ]
+}

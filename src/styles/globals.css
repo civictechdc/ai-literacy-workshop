@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Content sections that can flex and shrink */
+.content-section {
+  flex-shrink: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.content-section > * {
+  flex-shrink: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* AI-themed color scheme */
+:root {
+  --ai-blue: #1e3a8a;
+  --ai-cyan: #06b6d4;
+  --ai-purple: #7c3aed;
+  --ai-amber: #f59e0b;
+  --ai-green: #10b981;
+  --ai-slate: #64748b;
+}
+
+/* Presentation-specific styles */
+.presentation-container {
+  @apply min-h-screen bg-gradient-to-br from-slate-50 to-slate-100;
+}
+
+.slide-container {
+  @apply bg-white shadow-2xl rounded-lg overflow-hidden flex flex-col;
+  width: min(95vw, 1400px);
+  height: 100%; /* Take full height of parent container */
+  margin: 1rem auto 5rem auto;
+}
+
+.slide-header {
+  @apply bg-gradient-to-r from-ai-blue to-ai-purple text-white flex-shrink-0;
+  padding: clamp(0.75rem, 2vw, 1.5rem);
+}
+
+.slide-content {
+  @apply flex-1 overflow-hidden;
+  padding: clamp(0.5rem, 2vw, 1.5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: clamp(0.25rem, 1vw, 0.75rem);
+  min-height: 0; /* Allow flex items to shrink below their minimum content height */
+}
+
+.code-window {
+  @apply bg-slate-900 text-green-400 rounded-lg overflow-hidden;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.interactive-panel {
+  @apply bg-slate-50 border-l-4 border-ai-cyan p-6;
+}
+
+/* Animation utilities */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.slide-transition {
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
